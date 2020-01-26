@@ -1,0 +1,110 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.devan.arcore.project"
+        minSdkVersion 26
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+    implementation "androidx.appcompat:appcompat:1.1.0"
+    implementation "com.android.support:appcompat-v7:29.0.0"
+
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.google.ar.sceneform:core:1.14.0'
+    implementation 'com.google.ar:core:1.14.0'
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.14.0'
+
+    implementation 'com.android.support:support-annotations:29.0.0'
+}
+
+
+sceneform.asset('sampledata/models/product/mproduct_1.fbx',
+        'default',
+        'sampledata/models/product/mproduct_1.sfa',
+        'src/main/assets/mproduct_1')
+
+
+
+sceneform.asset('sampledata/models/random/random2/Earth/Earth.gltf',
+        'default',
+        'sampledata/models/random/random2/Earth/Earth.sfa',
+        'src/main/assets/Earth')
+
+sceneform.asset('sampledata/models/random/random2/Jupiter/Jupiter.gltf',
+        'default',
+        'sampledata/models/random/random2/Jupiter/Jupiter.sfa',
+        'src/main/assets/Jupiter')
+
+sceneform.asset('sampledata/models/random/random2/Luna/Luna.gltf',
+        'default',
+        'sampledata/models/random/random2/Luna/Luna.sfa',
+        'src/main/assets/Luna')
+
+sceneform.asset('sampledata/models/random/random2/Mars/Mars.gltf',
+        'default',
+        'sampledata/models/random/random2/Mars/Mars.sfa',
+        'src/main/assets/Mars')
+
+sceneform.asset('sampledata/models/random/random2/Mercury/Mercury.gltf',
+        'default',
+        'sampledata/models/random/random2/Mercury/Mercury.sfa',
+        'src/main/assets/Mercury')
+
+sceneform.asset('sampledata/models/random/random2/Neptune/Neptune.gltf',
+        'default',
+        'sampledata/models/random/random2/Neptune/Neptune.sfa',
+        'src/main/assets/Neptune')
+
+sceneform.asset('sampledata/models/random/random2/Saturn/Saturn.gltf',
+        'default',
+        'sampledata/models/random/random2/Saturn/Saturn.sfa',
+        'src/main/assets/Saturn')
+
+sceneform.asset('sampledata/models/random/random2/Sol/Sol.gltf',
+        'default',
+        'sampledata/models/random/random2/Sol/Sol.sfa',
+        'src/main/assets/Sol')
+
+sceneform.asset('sampledata/models/random/random2/Uranus/Uranus.gltf',
+        'default',
+        'sampledata/models/random/random2/Uranus/Uranus.sfa',
+        'src/main/assets/Uranus')
+
+sceneform.asset('sampledata/models/random/random2/Venus/Venus.gltf',
+        'default',
+        'sampledata/models/random/random2/Venus/Venus.sfa',
+        'src/main/assets/Venus')
+
+sceneform.asset('sampledata/models/product/mproduct_2.fbx',
+        'default',
+        'sampledata/models/product/mproduct_2.sfa',
+        'src/main/assets/mproduct_2')

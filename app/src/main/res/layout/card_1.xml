@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/dimen_common"
+    android:layout_marginTop="@dimen/dimen_common_small"
+    android:layout_marginEnd="@dimen/dimen_common"
+    android:layout_marginBottom="@dimen/dimen_common_small"
+    android:clickable="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="?attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/img_card_1"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+             />
+
+        <TextView
+            android:id="@+id/tv_card_1_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_card_1"
+            android:layout_marginStart="@dimen/dimen_common"
+            android:layout_marginTop="@dimen/dimen_common"
+            android:layout_marginEnd="@dimen/dimen_common"
+            android:text="@string/hello"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/tv_card_1_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_card_1_title"
+            android:layout_marginStart="@dimen/dimen_common"
+            android:layout_marginTop="@dimen/dimen_common"
+            android:layout_marginEnd="@dimen/dimen_common"
+            android:layout_marginBottom="@dimen/dimen_common"
+            android:text="@string/subtitle_text_adsdsadsdsd"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:textSize="17dp"
+            android:typeface="sans" />
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
