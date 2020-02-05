@@ -16,6 +16,7 @@ public class random {
         List<randomset> listViewItems = new ArrayList<randomset>();
         listViewItems.add(new randomset(1, "Drawing","Draw in AR", R.drawable.material_design_5));
         listViewItems.add(new randomset(2,"Solar System", "Animated",R.drawable.material_design_4));
+        listViewItems.add(new randomset(3,"Distance","calculate distance",R.drawable.material_design_5));
 
 
         return listViewItems;

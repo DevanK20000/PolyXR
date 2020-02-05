@@ -53,7 +53,6 @@ sceneform.asset('sampledata/models/product/mproduct_1.fbx',
         'src/main/assets/mproduct_1')
 
 
-
 sceneform.asset('sampledata/models/random/random2/Earth/Earth.gltf',
         'default',
         'sampledata/models/random/random2/Earth/Earth.sfa',

@@ -12,11 +12,9 @@ import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.devan.arcore.project.Distance.distance;
 import com.devan.arcore.project.R;
-//import com.devan.arcore.project.ui.main.randomFragment.OnListFragmentInteractionListener;
-import com.devan.arcore.project.RecycleView.random;
 import com.devan.arcore.project.RecycleView.random.randomset;
 import com.devan.arcore.project.drawing.DrawingActivity;
 import com.devan.arcore.project.planet.SolarActivity;
@@ -66,6 +64,10 @@ public class MyrandomRecyclerViewAdapter extends RecyclerView.Adapter<MyrandomRe
                 }
                 else if(position==1){
                     Intent intent=new Intent(v.getContext(), SolarActivity.class);
+                    v.getContext().startActivity(intent);
+                }
+                else if(position==2){
+                    Intent intent=new Intent(v.getContext(), distance.class);
                     v.getContext().startActivity(intent);
                 }
                 else {

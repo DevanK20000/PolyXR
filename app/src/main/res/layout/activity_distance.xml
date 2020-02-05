@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <fragment
+        android:id="@+id/sceneview_distance"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/sceneview_distance"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:clickable="false"
+        android:textColorHint="@color/primaryTextColor"
+        app:boxBackgroundColor="#7AFFFFFF"
+        app:helperText="distance"
+        app:helperTextEnabled="true"
+        app:helperTextTextAppearance="@style/TextAppearance.AppCompat.Body1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/distance_display"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="Distance"
+            android:textColor="@color/secondaryTextColor"
+            android:textColorHint="@color/secondaryTextColor" />
+    </com.google.android.material.textfield.TextInputLayout>
+</RelativeLayout>
