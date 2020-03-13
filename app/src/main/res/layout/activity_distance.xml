@@ -17,21 +17,20 @@
         android:layout_alignBottom="@id/sceneview_distance"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
         android:clickable="false"
         android:textColorHint="@color/primaryTextColor"
         app:boxBackgroundColor="#7AFFFFFF"
-        app:helperText="distance"
-        app:helperTextEnabled="true"
         app:helperTextTextAppearance="@style/TextAppearance.AppCompat.Body1">
 
-        <com.google.android.material.textfield.TextInputEditText
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/distance_display"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clickable="false"
             android:gravity="center"
             android:text="Distance"
-            android:textColor="@color/secondaryTextColor"
-            android:textColorHint="@color/secondaryTextColor" />
+            android:textColor="@color/primaryTextColor"
+            android:textColorHint="@color/primaryTextColor" />
     </com.google.android.material.textfield.TextInputLayout>
 </RelativeLayout>

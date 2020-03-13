@@ -2,8 +2,6 @@ package com.devan.arcore.project.Distance;
 
 import android.os.Bundle;
 import android.widget.TextView;
-
-import com.devan.arcore.project.MainActivity;
 import com.devan.arcore.project.R;
 import com.google.ar.core.Anchor;
 import com.google.ar.core.Frame;

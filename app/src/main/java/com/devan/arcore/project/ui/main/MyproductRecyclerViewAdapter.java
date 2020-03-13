@@ -2,7 +2,6 @@ package com.devan.arcore.project.ui.main;
 
 import android.animation.ObjectAnimator;
 import android.app.Activity;
-import android.app.ActivityOptions;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -10,20 +9,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
-import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.ScrollView;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import com.devan.arcore.project.MainActivity;
 import com.devan.arcore.project.R;
 import com.devan.arcore.project.RecycleView.product.productset;
 
 import java.util.List;
 
 import androidx.core.app.ActivityOptionsCompat;
-import androidx.core.view.ViewCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 //import com.devan.arcore.project.ui.main.randomFragment.OnListFragmentInteractionListener;

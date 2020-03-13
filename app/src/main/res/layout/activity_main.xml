@@ -2,6 +2,7 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/context"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -21,18 +22,19 @@
             android:paddingLeft="16dp"
             android:text="@string/app_name"
             android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
-            android:textColor="@color/primaryTextColor"
+            android:textColor="@color/primaryLightColor"
             app:layout_scrollFlags="scroll|enterAlways"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:onClick="secrete"/>
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?attr/colorPrimary"
-            app:tabTextColor="@color/primaryDarkColor"
+            app:tabTextColor="@color/primaryLightColor"
             app:tabSelectedTextColor="@color/secondaryColor"
-            style="@style/Widget.MaterialComponents.TabLayout"
+            tyle="@style/Widget.MaterialComponents.TabLayout"
             />
     </com.google.android.material.appbar.AppBarLayout>
 

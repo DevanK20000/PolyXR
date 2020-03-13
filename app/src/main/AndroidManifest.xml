@@ -14,6 +14,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.devan.arcore.project.MainActivity" />
+        </activity>
+        <activity
             android:name=".ui.main.AR_activity_random"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="AR_Activity_random"

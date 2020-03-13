@@ -3,7 +3,6 @@ package com.devan.arcore.project.ui.main;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.MotionEvent;
-
 import com.devan.arcore.project.R;
 import com.google.ar.core.Anchor;
 import com.google.ar.core.HitResult;

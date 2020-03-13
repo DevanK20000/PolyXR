@@ -1,7 +1,6 @@
 package com.devan.arcore.project.ui.main;
 
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.animation.ObjectAnimator;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -12,7 +11,6 @@ import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.devan.arcore.project.Distance.distance;
 import com.devan.arcore.project.R;
 import com.devan.arcore.project.RecycleView.random.randomset;
