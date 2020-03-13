@@ -97,3 +97,14 @@ sceneform.asset('sampledata/models/random/random2/Venus/Venus.gltf',
         'default',
         'sampledata/models/random/random2/Venus/Venus.sfa',
         'src/main/assets/Venus')
+
+
+sceneform.asset('sampledata/models/product/mproduct_1.fbx',
+        'default',
+        'sampledata/models/product/mproduct_1.sfa',
+        'src/main/assets/mproduct_1')
+
+sceneform.asset('sampledata/models/product/mproduct_2.fbx',
+        'default',
+        'sampledata/models/product/mproduct_2.sfa',
+        'src/main/assets/mproduct_2')
