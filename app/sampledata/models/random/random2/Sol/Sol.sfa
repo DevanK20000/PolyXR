@@ -207,32 +207,32 @@
   },
   samplers: [
     {
-      file: 'sampledata/models/random/random2/Sol\\Sol_Opaque_Mat_baseColor.png',
+      file: 'sampledata/models/random/random2/Sol/Sol_Opaque_Mat_baseColor.png',
       name: 'Sol_Opaque_Mat_baseColor',
       pipeline_name: 'Sol_Opaque_Mat_baseColor.png',
     },
     {
-      file: 'sampledata/models/random/random2/Sol\\Sol_Transparent_Mat_baseColor.png',
+      file: 'sampledata/models/random/random2/Sol/Sol_Transparent_Mat_baseColor.png',
       name: 'Sol_Transparent_Mat_baseColor',
       pipeline_name: 'Sol_Transparent_Mat_baseColor.png',
     },
     {
-      file: 'sampledata/models/random/random2/Sol\\Sol_Opaque_Mat_emissive.png',
+      file: 'sampledata/models/random/random2/Sol/Sol_Opaque_Mat_emissive.png',
       name: 'Sol_Opaque_Mat_emissive',
       pipeline_name: 'Sol_Opaque_Mat_emissive.png',
     },
     {
-      file: 'sampledata/models/random/random2/Sol\\Sol_Transparent_Mat_emissive.png',
+      file: 'sampledata/models/random/random2/Sol/Sol_Transparent_Mat_emissive.png',
       name: 'Sol_Transparent_Mat_emissive',
       pipeline_name: 'Sol_Transparent_Mat_emissive.png',
     },
     {
-      file: 'sampledata/models/random/random2/Sol\\SolarFlare_Transparent_Mat_baseColor.png',
+      file: 'sampledata/models/random/random2/Sol/SolarFlare_Transparent_Mat_baseColor.png',
       name: 'SolarFlare_Transparent_Mat_baseColor',
       pipeline_name: 'SolarFlare_Transparent_Mat_baseColor.png',
     },
     {
-      file: 'sampledata/models/random/random2/Sol\\SolarFlare_Transparent_Mat_emissive.png',
+      file: 'sampledata/models/random/random2/Sol/SolarFlare_Transparent_Mat_emissive.png',
       name: 'SolarFlare_Transparent_Mat_emissive',
       pipeline_name: 'SolarFlare_Transparent_Mat_emissive.png',
     },

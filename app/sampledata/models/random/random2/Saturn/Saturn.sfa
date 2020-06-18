@@ -207,22 +207,22 @@
   },
   samplers: [
     {
-      file: 'sampledata/models/random/random2/Saturn\\SaturnPlanet_Opaque_Mat_baseColor.png',
+      file: 'sampledata/models/random/random2/Saturn//SaturnPlanet_Opaque_Mat_baseColor.png',
       name: 'SaturnPlanet_Opaque_Mat_baseColor',
       pipeline_name: 'SaturnPlanet_Opaque_Mat_baseColor.png',
     },
     {
-      file: 'sampledata/models/random/random2/Saturn\\Saturn_Clouds_mat_baseColor.png',
+      file: 'sampledata/models/random/random2/Saturn/Saturn_Clouds_mat_baseColor.png',
       name: 'Saturn_Clouds_mat_baseColor',
       pipeline_name: 'Saturn_Clouds_mat_baseColor.png',
     },
     {
-      file: 'sampledata/models/random/random2/Saturn\\SaturnRings_Mat_baseColor.png',
+      file: 'sampledata/models/random/random2/Saturn/SaturnRings_Mat_baseColor.png',
       name: 'SaturnRings_Mat_baseColor',
       pipeline_name: 'SaturnRings_Mat_baseColor.png',
     },
     {
-      file: 'sampledata/models/random/random2/Saturn\\SaturnRings_Mat_occlusionRoughnessMetallic.png',
+      file: 'sampledata/models/random/random2/Saturn/SaturnRings_Mat_occlusionRoughnessMetallic.png',
       name: 'SaturnRings_Mat_occlusionRoughnessMetallic',
       params: {
         usage_type: 'Data',

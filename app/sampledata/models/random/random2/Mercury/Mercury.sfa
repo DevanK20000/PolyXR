@@ -79,12 +79,12 @@
   },
   samplers: [
     {
-      file: 'sampledata/models/random/random2/Mercury\\Mercury_Mat_baseColor.png',
+      file: 'sampledata/models/random/random2/Mercury/Mercury_Mat_baseColor.png',
       name: 'Mercury_Mat_baseColor',
       pipeline_name: 'Mercury_Mat_baseColor.png',
     },
     {
-      file: 'sampledata/models/random/random2/Mercury\\Mercury_Mat_occlusionRoughnessMetallic.png',
+      file: 'sampledata/models/random/random2/Mercury/Mercury_Mat_occlusionRoughnessMetallic.png',
       name: 'Mercury_Mat_occlusionRoughnessMetallic',
       params: {
         usage_type: 'Data',
@@ -92,7 +92,7 @@
       pipeline_name: 'Mercury_Mat_occlusionRoughnessMetallic.png',
     },
     {
-      file: 'sampledata/models/random/random2/Mercury\\Mercury_Mat_normal.png',
+      file: 'sampledata/models/random/random2/Mercury/Mercury_Mat_normal.png',
       name: 'Mercury_Mat_normal',
       params: {
         usage_type: 'Normal',

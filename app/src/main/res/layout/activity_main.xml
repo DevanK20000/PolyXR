@@ -5,7 +5,7 @@
     android:id="@+id/context"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    >
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -21,20 +21,20 @@
             android:padding="@dimen/appbar_padding"
             android:paddingLeft="16dp"
             android:text="@string/app_name"
+            android:background="#000000"
             android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
             android:textColor="@color/primaryLightColor"
             app:layout_scrollFlags="scroll|enterAlways"
-            app:popupTheme="@style/AppTheme.PopupOverlay"
-            android:onClick="secrete"/>
+            />
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="?attr/colorPrimary"
+            android:background="#000000"
             app:tabTextColor="@color/primaryLightColor"
             app:tabSelectedTextColor="@color/secondaryColor"
-            tyle="@style/Widget.MaterialComponents.TabLayout"
+            style="@style/Widget.MaterialComponents.TabLayout"
             />
     </com.google.android.material.appbar.AppBarLayout>
 

@@ -143,12 +143,12 @@
   },
   samplers: [
     {
-      file: 'sampledata/models/random/random2/Jupiter\\Jupiter_Mat_baseColor.png',
+      file: 'sampledata/models/random/random2/Jupiter/Jupiter_Mat_baseColor.png',
       name: 'Jupiter_Mat_baseColor',
       pipeline_name: 'Jupiter_Mat_baseColor.png',
     },
     {
-      file: 'sampledata/models/random/random2/Jupiter\\JupiterClouds_Mat_baseColor.png',
+      file: 'sampledata/models/random/random2/Jupiter/JupiterClouds_Mat_baseColor.png',
       name: 'JupiterClouds_Mat_baseColor',
       pipeline_name: 'JupiterClouds_Mat_baseColor.png',
     },

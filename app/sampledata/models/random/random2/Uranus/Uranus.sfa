@@ -207,17 +207,17 @@
   },
   samplers: [
     {
-      file: 'sampledata/models/random/random2/Uranus\\UranusRings_Stingray_Mat_baseColor.png',
+      file: 'sampledata/models/random/random2/Uranus/UranusRings_Stingray_Mat_baseColor.png',
       name: 'UranusRings_Stingray_Mat_baseColor',
       pipeline_name: 'UranusRings_Stingray_Mat_baseColor.png',
     },
     {
-      file: 'sampledata/models/random/random2/Uranus\\UranusGlobe_Mat_baseColor.png',
+      file: 'sampledata/models/random/random2/Uranus/UranusGlobe_Mat_baseColor.png',
       name: 'UranusGlobe_Mat_baseColor',
       pipeline_name: 'UranusGlobe_Mat_baseColor.png',
     },
     {
-      file: 'sampledata/models/random/random2/Uranus\\Uranus_Clouds_Mat_baseColor.png',
+      file: 'sampledata/models/random/random2/Uranus/Uranus_Clouds_Mat_baseColor.png',
       name: 'Uranus_Clouds_Mat_baseColor',
       pipeline_name: 'Uranus_Clouds_Mat_baseColor.png',
     },

@@ -143,17 +143,17 @@
   },
   samplers: [
     {
-      file: 'sampledata/models/random/random2/Mars\\Mars_Atmosphere_Mat_baseColor.png',
+      file: 'sampledata/models/random/random2/Mars/Mars_Atmosphere_Mat_baseColor.png',
       name: 'Mars_Atmosphere_Mat_baseColor',
       pipeline_name: 'Mars_Atmosphere_Mat_baseColor.png',
     },
     {
-      file: 'sampledata/models/random/random2/Mars\\Mars_mat_baseColor.png',
+      file: 'sampledata/models/random/random2/Mars/Mars_mat_baseColor.png',
       name: 'Mars_mat_baseColor',
       pipeline_name: 'Mars_mat_baseColor.png',
     },
     {
-      file: 'sampledata/models/random/random2/Mars\\Mars_mat_normal.png',
+      file: 'sampledata/models/random/random2/Mars/Mars_mat_normal.png',
       name: 'Mars_mat_normal',
       params: {
         usage_type: 'Normal',

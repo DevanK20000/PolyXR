@@ -143,12 +143,12 @@
   },
   samplers: [
     {
-      file: 'sampledata/models/random/random2/Venus\\Venus_Atmosphere_Mat_baseColor.png',
+      file: 'sampledata/models/random/random2/Venus/Venus_Atmosphere_Mat_baseColor.png',
       name: 'Venus_Atmosphere_Mat_baseColor',
       pipeline_name: 'Venus_Atmosphere_Mat_baseColor.png',
     },
     {
-      file: 'sampledata/models/random/random2/Venus\\Venus_Atmosphere_Mat_occlusionRoughnessMetallic.png',
+      file: 'sampledata/models/random/random2/Venus/Venus_Atmosphere_Mat_occlusionRoughnessMetallic.png',
       name: 'Venus_Atmosphere_Mat_occlusionRoughnessMetallic',
       params: {
         usage_type: 'Data',
@@ -156,12 +156,12 @@
       pipeline_name: 'Venus_Atmosphere_Mat_occlusionRoughnessMetallic.png',
     },
     {
-      file: 'sampledata/models/random/random2/Venus\\Venus_Terrain_Mat_baseColor.png',
+      file: 'sampledata/models/random/random2/Venus/Venus_Terrain_Mat_baseColor.png',
       name: 'Venus_Terrain_Mat_baseColor',
       pipeline_name: 'Venus_Terrain_Mat_baseColor.png',
     },
     {
-      file: 'sampledata/models/random/random2/Venus\\Venus_Terrain_Mat_normal.png',
+      file: 'sampledata/models/random/random2/Venus/Venus_Terrain_Mat_normal.png',
       name: 'Venus_Terrain_Mat_normal',
       params: {
         usage_type: 'Normal',
